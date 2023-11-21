@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/flying_crow_game.iml" filepath="$PROJECT_DIR$/flying_crow_game.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/flying_crow_game_android.iml" filepath="$PROJECT_DIR$/android/flying_crow_game_android.iml" />
     </modules>
   </component>
 </project>
