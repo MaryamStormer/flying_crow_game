@@ -4,34 +4,32 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23caa844-9152-4784-a0d3-3f578caf9896" name="Changes" comment="first commit">
-      <change afterPath="$PROJECT_DIR$/assets/images/Glacial_Mountains-Cover.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/background_glacial_mountains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/background_glacial_mountains_lightened.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/PSD/GlacialMountains_PS.psd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/cloud_lonely.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/clouds_bg.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/clouds_mg_1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/clouds_mg_1_lightened.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/clouds_mg_2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/clouds_mg_3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/crow.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/glacial_mountains.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/glacial_mountains_lightened.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/sky.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/sky_lightened.png" afterDir="false" />
+    <list default="true" id="23caa844-9152-4784-a0d3-3f578caf9896" name="Changes" comment="03 flame">
+      <change afterPath="$PROJECT_DIR$/assets/images/layers/enemy.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Screens/gameEndScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Screens/gamePlay.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/Screens/gameStartScreen.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actors/enemy.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/actors/flyingCrow.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/test.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flying_crow_game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flying_crow_game.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Dart File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -52,28 +50,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.cidr.known.project.marker": "true",
-    "cidr.known.project.marker": "true",
-    "dart.analysis.tool.window.visible": "false",
-    "io.flutter.reload.alreadyRun": "true",
-    "last_opened_file_path": "C:/Users/Sadaam/StudioProjects/flying_crow_game",
-    "settings.editor.selected.configurable": "flutter.settings",
-    "show.migrate.to.gradle.popup": "false"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;io.flutter.reload.alreadyRun&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/flying_crow_game&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;flutter.settings&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Sadaam\StudioProjects\flying_crow_game\assets" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\flying_crow_game\lib\actors" />
       <recent name="C:\Users\Sadaam\StudioProjects\flying_crow_game\assets\images\layers" />
       <recent name="C:\Users\Sadaam\StudioProjects\flying_crow_game\assets\images" />
     </key>
+  </component>
+  <component name="RunManager" selected="Flutter.test.dart">
+    <configuration name="test.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
+      <option name="filePath" value="$PROJECT_DIR$/lib/test.dart" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Flutter.test.dart" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -91,7 +101,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700547525875</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="03 flame">
+      <created>1700561676617</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1700561676617</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,7 +152,8 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <MESSAGE value="03 flame" />
+    <option name="LAST_COMMIT_MESSAGE" value="03 flame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
