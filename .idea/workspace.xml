@@ -4,20 +4,24 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="23caa844-9152-4784-a0d3-3f578caf9896" name="Changes" comment="03 flame">
-      <change afterPath="$PROJECT_DIR$/assets/images/layers/enemy.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Screens/gameEndScreen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Screens/gamePlay.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/Screens/gameStartScreen.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actors/enemy.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/actors/flyingCrow.dart" afterDir="false" />
+    <list default="true" id="23caa844-9152-4784-a0d3-3f578caf9896" name="Changes" comment="05 flame">
+      <change afterPath="$PROJECT_DIR$/lib/Screens/scrollGame.dart" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/lib/test.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/flying_crow_game.iml" beforeDir="false" afterPath="$PROJECT_DIR$/flying_crow_game.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Screens/gameEndScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/gameEndScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Screens/gamePlay.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/gamePlay.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/Screens/gameStartScreen.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/Screens/gameStartScreen.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actors/enemy.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actors/enemy.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/actors/flyingCrow.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/actors/flyingCrow.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/linux/flutter/generated_plugins.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" beforeDir="false" afterPath="$PROJECT_DIR$/macos/Flutter/GeneratedPluginRegistrant.swift" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/widget_test.dart" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugin_registrant.cc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/windows/flutter/generated_plugins.cmake" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +78,7 @@
       <recent name="C:\Users\Sadaam\StudioProjects\flying_crow_game\assets\images" />
     </key>
   </component>
-  <component name="RunManager" selected="Flutter.test.dart">
+  <component name="RunManager" selected="Flutter.main.dart">
     <configuration name="test.dart" type="FlutterRunConfigurationType" factoryName="Flutter" temporary="true" nameIsGenerated="true">
       <option name="filePath" value="$PROJECT_DIR$/lib/test.dart" />
       <method v="2" />
@@ -108,7 +112,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700561676617</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="05 flame">
+      <created>1700838695414</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700838695414</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -153,7 +164,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="first commit" />
     <MESSAGE value="03 flame" />
-    <option name="LAST_COMMIT_MESSAGE" value="03 flame" />
+    <MESSAGE value="05 flame" />
+    <option name="LAST_COMMIT_MESSAGE" value="05 flame" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

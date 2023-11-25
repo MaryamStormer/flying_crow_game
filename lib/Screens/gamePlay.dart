@@ -1,12 +1,11 @@
 import 'package:flame/components.dart';
 import 'package:flame/events.dart';
 import 'package:flame/parallax.dart';
-import 'package:flying_crow_game/actors/flyingCrow.dart';
 import '../actors/enemy.dart';
 import '../main.dart';
 
 class GamePlayScreen extends Component with HasGameRef<FlyingCrowGameStart>,TapCallbacks{
-  FlyingCrow flyingCrow = FlyingCrow();
+  Timer interval=Timer(6,repeat: true);
   @override
   Future<void> onLoad() async {
     super.onLoad();
@@ -26,8 +25,9 @@ class GamePlayScreen extends Component with HasGameRef<FlyingCrowGameStart>,TapC
       velocityMultiplierDelta: Vector2(1.6, 1.0),
     );
     add(flyingCrowBackground);
-    add(flyingCrow);
-    add(EnemyCraft());
+    add(gameRef.flyingCrow);
+    interval.onTick = () => add(EnemyCraft());
+
 
     // add(SpriteComponent(
     //
@@ -36,11 +36,25 @@ class GamePlayScreen extends Component with HasGameRef<FlyingCrowGameStart>,TapC
     //     anchor:Anchor.center));
   }
   @override
-  void containsLocalPoints(Vector2 point) => true;
+  void update(double dt) {
+    // TODO: implement update
+    super.update(dt);
+    interval.update(dt);
+  }
+@override
+  bool containsLocalPoint(Vector2 point) {
+
+// return super.containsLocalPoint(point);
+return true;
+
+
+  }
   @override
   void onTapUp(TapUpEvent event) {
     super.onTapUp(event);
-    gameRef.gravity.y-=20;
+    gameRef.gravity.y -= 20;
+    print('tap on screen anywhere');
+    event.handled = true;
   }
 
 }
