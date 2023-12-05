@@ -1,11 +1,6 @@
-
-
-
 import 'package:flame/collisions.dart';
 import 'package:flame/components.dart';
-import 'package:flame/events.dart';
 import 'package:flying_crow_game/main.dart';
-
 class FlyingCrow extends SpriteAnimationComponent with HasGameRef<FlyingCrowGameStart>, CollisionCallbacks{
   late SpriteAnimationComponent crowFlying;
   FlyingCrow():super(){
